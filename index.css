@@ -1,0 +1,283 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+header.banner {
+  background-image: url('images/logo.png');
+  background-size: cover;
+  background-position: center;
+  padding: 10px 10px;
+  color: #272323;
+  text-align: center;
+  position: relative;
+}
+
+.logo img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 0px;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.navbar h1 {
+  color: #0044ff;
+  font-size: 28px;
+}
+
+.signup {
+  background-color: #0044ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup:hover {
+  background-color: #0033cc;
+}
+
+.banner-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.stay-focused {
+  background-color: #0044ff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.stay-focused:hover {
+  transform: scale(1.1);
+}
+
+section.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 300px 30px 300px;
+}
+
+.action-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.launch-preview {
+  background-color: #0044ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.launch-preview:hover {
+  background-color: #0033cc;
+}
+
+.action-right img {
+  max-width: 400px;
+}
+
+section.productive {
+  background-color: #f5f7fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.productive h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.stats div h3 {
+  font-size: 24px;
+  color: #0044ff;
+}
+
+.stats div p {
+  margin-top: 8px;
+}
+
+
+section.feedback {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.feedback p {
+  margin-bottom: 30px;
+}
+
+.review-center, .review-right, .review-left {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 8px;
+}
+
+.stars img {
+  width: 2px;
+  margin: 0 2px;
+}
+
+.review-center img,
+.review-right img,
+.review-left img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 30px;
+}
+
+.review-center {
+  width: 300px;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  margin: 0 10px 0 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.review-right {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+.review-left {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+section.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.contact-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  padding: 0 20px 0 200px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  margin: 20px 300px 20px 150px;
+  max-width: 400px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-right button {
+  background-color: #0044ff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-right button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+
+footer h1 {
+  color: #0044ff;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 20px;
+  color: #666;
+}
+@media (max-width: 768px) {
+  section.action,
+  section.contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .action-right img,
+  .contact-right {
+    margin-top: 20px;
+  }
+}
